@@ -1,0 +1,55 @@
+.button-1 {
+  background-color: #0e6cff;
+}
+
+.button-2 {
+  background-color: #ff8700;
+}
+
+.button-3 {
+  background-color: #4caf50;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  background-color: #000;
+}
+nav .logo img {
+  width: 45px;
+}
+nav li {
+  color: #f4f4f4;
+  margin-right: 1.5rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero {
+  background-color: #640fc5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+}
+.hero img {
+  width: 150px;
+}/*# sourceMappingURL=style.css.map */

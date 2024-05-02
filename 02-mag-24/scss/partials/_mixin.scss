@@ -1,0 +1,10 @@
+@mixin d-flex {
+    display: flex;
+}
+@mixin d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: #000;
+}
